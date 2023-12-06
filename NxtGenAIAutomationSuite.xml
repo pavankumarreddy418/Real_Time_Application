@@ -3,17 +3,17 @@
 <suite parallel="false" name="NxtGen AI Automation Suite">
 
 	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="com.nxtgenai.listeners.CustomListeners" />
 	</listeners>
 
 	<test name="NxtGen AI Suite">
 		<classes>
-		<class name="com.nxtgenai.testcases.ScreenNavigation"/>
-		<class name="com.nxtgenai.testcases.RegisterDemo"/>
-		<class name="com.nxtgenai.testcases.HandlingPopUp"/>
-		<class name="com.nxtgenai.testcases.HandlingMultipleWindows"/> 	
-		<class name="com.nxtgenai.testcases.HandlingWebTable"/> 
-	</classes>
+		    <class name="com.nxtgenai.testcases.ScreenNavigation" /> 	
+			<class name="com.nxtgenai.testcases.RegisterDemo" />
+			<class name="com.nxtgenai.testcases.HandlingPopUp" /> 
+			<class name="com.nxtgenai.testcases.HandlingMultipleWindows" /> 
+		</classes>
 	</test> <!-- testng.xml -->	
 
 </suite> <!-- Suite -->
