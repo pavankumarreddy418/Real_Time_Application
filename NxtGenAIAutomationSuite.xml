@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="NxtGen AI Automation Suite">
+
+	<listeners>
+		<listener class-name="com.nxtgenai.listeners.CustomListeners" />
+	</listeners>
+
+	<test name="NxtGen AI Suite">
+		<classes>
+		<class name="com.nxtgenai.testcases.ScreenNavigation"/>
+		<class name="com.nxtgenai.testcases.RegisterDemo"/>
+		<class name="com.nxtgenai.testcases.HandlingPopUp"/>
+		<class name="com.nxtgenai.testcases.HandlingMultipleWindows"/> 	
+		<class name="com.nxtgenai.testcases.HandlingWebTable"/> 
+	</classes>
+	</test> <!-- testng.xml -->	
+
+</suite> <!-- Suite -->

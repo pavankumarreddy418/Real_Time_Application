@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="29" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-23T12:17:41 IST" name="NxtGen AI Automation Suite" finished-at="2022-08-23T12:19:07 IST" duration-ms="85794">
+    <groups>
+    </groups>
+    <test started-at="2022-08-23T12:17:41 IST" name="NxtGen AI Suite" finished-at="2022-08-23T12:19:07 IST" duration-ms="85794">
+      <class name="com.nxtgenai.testcases.HandlingMultipleWindows">
+        <test-method is-config="true" signature="navigateToMultipleWindows()[pri:0, instance:com.nxtgenai.testcases.HandlingMultipleWindows@503d56b5]" started-at="2022-08-23T12:18:41 IST" name="navigateToMultipleWindows" finished-at="2022-08-23T12:18:43 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMultipleWindows -->
+        <test-method signature="handlingMultipleBrowsers()[pri:1, instance:com.nxtgenai.testcases.HandlingMultipleWindows@503d56b5]" started-at="2022-08-23T12:18:43 IST" name="handlingMultipleBrowsers" finished-at="2022-08-23T12:18:47 IST" duration-ms="3861" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-QMSQO3B', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fea2ca935d72f8734e8fa22de780dddf, clickElement {id=67b4bc90-383c-4520-92dc-1a12dbf443dc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57644/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fea2ca935d72f8734e8fa22de780dddf)] -> partial link text: DATA SCIENCE]
+Session ID: fea2ca935d72f8734e8fa22de780dddf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-QMSQO3B', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fea2ca935d72f8734e8fa22de780dddf, clickElement {id=67b4bc90-383c-4520-92dc-1a12dbf443dc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57644/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fea2ca935d72f8734e8fa22de780dddf)] -> partial link text: DATA SCIENCE]
+Session ID: fea2ca935d72f8734e8fa22de780dddf
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy19.click(Unknown Source)
+at com.nxtgenai.pages.NxtGenHomePage.clickPythonForDataScienceLink(NxtGenHomePage.java:111)
+at com.nxtgenai.testcases.HandlingMultipleWindows.handlingMultipleBrowsers(HandlingMultipleWindows.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingMultipleBrowsers -->
+        <test-method signature="handlingMultipleTabs()[pri:2, instance:com.nxtgenai.testcases.HandlingMultipleWindows@503d56b5]" started-at="2022-08-23T12:18:49 IST" name="handlingMultipleTabs" finished-at="2022-08-23T12:18:57 IST" duration-ms="7583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingMultipleTabs -->
+        <test-method signature="handlingMultipleMessageWindow()[pri:3, instance:com.nxtgenai.testcases.HandlingMultipleWindows@503d56b5]" started-at="2022-08-23T12:18:57 IST" name="handlingMultipleMessageWindow" finished-at="2022-08-23T12:19:04 IST" duration-ms="7376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingMultipleMessageWindow -->
+      </class> <!-- com.nxtgenai.testcases.HandlingMultipleWindows -->
+      <class name="com.nxtgenai.testcases.HandlingWebTable">
+        <test-method signature="displayEmployeeDetails()[pri:1, instance:com.nxtgenai.testcases.HandlingWebTable@72bca894]" started-at="2022-08-23T12:19:04 IST" name="displayEmployeeDetails" finished-at="2022-08-23T12:19:07 IST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayEmployeeDetails -->
+      </class> <!-- com.nxtgenai.testcases.HandlingWebTable -->
+      <class name="com.nxtgenai.testcases.ScreenNavigation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:30 IST" name="setUp" finished-at="2022-08-23T12:17:41 IST" duration-ms="11405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatingAutomationTrainingNavigation()[pri:3, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:42 IST" name="validatingAutomationTrainingNavigation" finished-at="2022-08-23T12:17:45 IST" duration-ms="3109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingAutomationTrainingNavigation -->
+        <test-method signature="validatingRegistrationFormNavigation()[pri:4, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:45 IST" name="validatingRegistrationFormNavigation" finished-at="2022-08-23T12:17:47 IST" duration-ms="2531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingRegistrationFormNavigation -->
+        <test-method signature="validatingAlertPopUpNavigation()[pri:5, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:47 IST" name="validatingAlertPopUpNavigation" finished-at="2022-08-23T12:17:49 IST" duration-ms="1810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingAlertPopUpNavigation -->
+        <test-method signature="validatingMultipleWindowsNavigation()[pri:6, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:49 IST" name="validatingMultipleWindowsNavigation" finished-at="2022-08-23T12:17:51 IST" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingMultipleWindowsNavigation -->
+        <test-method signature="validatingWebTableNavigation()[pri:7, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:51 IST" name="validatingWebTableNavigation" finished-at="2022-08-23T12:17:53 IST" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingWebTableNavigation -->
+        <test-method signature="validatingTechTalkNavigation()[pri:8, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:53 IST" name="validatingTechTalkNavigation" finished-at="2022-08-23T12:17:55 IST" duration-ms="1777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingTechTalkNavigation -->
+        <test-method signature="validatingTestimonialsNavigation()[pri:9, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:55 IST" name="validatingTestimonialsNavigation" finished-at="2022-08-23T12:17:56 IST" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingTestimonialsNavigation -->
+        <test-method signature="validatingNumPyNavigation()[pri:10, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:17:56 IST" name="validatingNumPyNavigation" finished-at="2022-08-23T12:18:18 IST" duration-ms="21915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingNumPyNavigation -->
+        <test-method signature="validatingPandasNavigation()[pri:11, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:18:18 IST" name="validatingPandasNavigation" finished-at="2022-08-23T12:18:20 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingPandasNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nxtgenai.testcases.ScreenNavigation@52c8295b]" started-at="2022-08-23T12:19:08 IST" name="tearDown" finished-at="2022-08-23T12:19:10 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nxtgenai.testcases.ScreenNavigation -->
+      <class name="com.nxtgenai.testcases.HandlingPopUp">
+        <test-method is-config="true" signature="navigateToAlertPopUp()[pri:0, instance:com.nxtgenai.testcases.HandlingPopUp@324dcd31]" started-at="2022-08-23T12:18:38 IST" name="navigateToAlertPopUp" finished-at="2022-08-23T12:18:40 IST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAlertPopUp -->
+        <test-method signature="validateAlertPopUp()[pri:1, instance:com.nxtgenai.testcases.HandlingPopUp@324dcd31]" started-at="2022-08-23T12:18:40 IST" name="validateAlertPopUp" finished-at="2022-08-23T12:18:40 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAlertPopUp -->
+        <test-method signature="validateConfirmAlertPopUp()[pri:2, instance:com.nxtgenai.testcases.HandlingPopUp@324dcd31]" started-at="2022-08-23T12:18:40 IST" name="validateConfirmAlertPopUp" finished-at="2022-08-23T12:18:41 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateConfirmAlertPopUp -->
+        <test-method signature="validatePromptAlertPopUp()[pri:3, instance:com.nxtgenai.testcases.HandlingPopUp@324dcd31]" started-at="2022-08-23T12:18:41 IST" name="validatePromptAlertPopUp" finished-at="2022-08-23T12:18:41 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePromptAlertPopUp -->
+      </class> <!-- com.nxtgenai.testcases.HandlingPopUp -->
+      <class name="com.nxtgenai.testcases.RegisterDemo">
+        <test-method signature="registerUser(java.util.Hashtable)[pri:0, instance:com.nxtgenai.testcases.RegisterDemo@39c11e6c]" started-at="2022-08-23T12:18:21 IST" name="registerUser" data-provider="dp" finished-at="2022-08-23T12:18:29 IST" duration-ms="8809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EmailID=vinothrwins@gmail.com, Gender=Male, StreetAddress=XYZ Street, UFT=ON, ApartmentNumber=S1, SeleniumWebDriver=ON, Country=India, Expected Successful Message=Registration Form is Successfully Submitted, PinCode=600100, State=Tamil Nadu, Query=What is the Roadmap for Automation?, TitleValidation=Register For Demo, MM=25, LastName=Rathinam, FirstName=Vinoth, MobileNumber=638354489, FunctionalTesting=OFF, Others=OFF, TestNG=ON, AMPM=AM, CoreJava=OFF, DemoDate=03/31/2021, HH=01, City=Chennai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="registerUser(java.util.Hashtable)[pri:0, instance:com.nxtgenai.testcases.RegisterDemo@39c11e6c]" started-at="2022-08-23T12:18:29 IST" name="registerUser" data-provider="dp" finished-at="2022-08-23T12:18:38 IST" duration-ms="8937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EmailID=pranav@gmail.com, Gender=Female, StreetAddress=ABC Street, UFT=OFF, ApartmentNumber=C1, SeleniumWebDriver=OFF, Country=India, Expected Successful Message=Registration Form is Successfully Submitted, PinCode=600200, State=Tamil Nadu, Query=What is the Roadmap for Automation?, TitleValidation=Register For Demo, MM=35, LastName=Vinoth, FirstName=Pranav, MobileNumber=638354489, FunctionalTesting=ON, Others=ON, TestNG=OFF, AMPM=PM, CoreJava=ON, DemoDate=03/31/2021, HH=04, City=Chennai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- com.nxtgenai.testcases.RegisterDemo -->
+    </test> <!-- NxtGen AI Suite -->
+  </suite> <!-- NxtGen AI Automation Suite -->
+</testng-results>

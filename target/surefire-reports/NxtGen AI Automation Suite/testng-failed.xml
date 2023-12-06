@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NxtGen AI Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.nxtgenai.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="NxtGen AI Suite(failed)" verbose="0">
+    <classes>
+      <class name="com.nxtgenai.testcases.HandlingMultipleWindows">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="handlingMultipleMessageWindow"/>
+          <include name="navigateToMultipleWindows"/>
+        </methods>
+      </class> <!-- com.nxtgenai.testcases.HandlingMultipleWindows -->
+      <class name="com.nxtgenai.testcases.HandlingPopUp">
+        <methods>
+          <include name="setUp"/>
+          <include name="validatePromptAlertPopUp"/>
+          <include name="tearDown"/>
+          <include name="navigateToAlertPopUp"/>
+        </methods>
+      </class> <!-- com.nxtgenai.testcases.HandlingPopUp -->
+      <class name="com.nxtgenai.testcases.ScreenNavigation">
+        <methods>
+          <include name="validatingPythonForDataScienceNavigation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validatingSeleniumOnlineTrainingNavigation"/>
+        </methods>
+      </class> <!-- com.nxtgenai.testcases.ScreenNavigation -->
+      <class name="com.nxtgenai.testcases.RegisterDemo">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="registerUser" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.nxtgenai.testcases.RegisterDemo -->
+    </classes>
+  </test> <!-- NxtGen AI Suite(failed) -->
+</suite> <!-- Failed suite [NxtGen AI Automation Suite] -->
